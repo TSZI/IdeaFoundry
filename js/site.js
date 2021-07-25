@@ -1,13 +1,15 @@
 function printPage() {
-    const mDate = document.querySelector('#printDate');
-    const mTite = document.querySelector('#printTitle');
-    const mUrl = document.querySelector('#printUrl');
-    const mPage = document.querySelector('#printPage');
+    // For PDF's
 
-    mDate.innerHTML = GetDateWithoutTime();
-    mTite.innerHTML = document.title;
-    mUrl.innerHTML = document.URL;
-    mPage.innerHTML = '1/1';
+    // const mDate = document.querySelector('#printDate');
+    // const mTite = document.querySelector('#printTitle');
+    // const mUrl = document.querySelector('#printUrl');
+    // const mPage = document.querySelector('#printPage');
+
+    // mDate.innerHTML = GetDateWithoutTime();
+    // mTite.innerHTML = document.title;
+    // mUrl.innerHTML = document.URL;
+    // mPage.innerHTML = '1/1';
 
     window.print();
 }

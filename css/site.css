@@ -4,6 +4,10 @@
     }
 }
 
+.cf-logo {
+    color: #ff993b;
+}
+
 @media print {
     body,
     html,

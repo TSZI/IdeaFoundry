@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+    .container > div {
+        border: none !important;
+    }
+}
+
+@media print {
+    body,
+    html,
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-top: 1rem;
+    }
+
+    #printRow {
+        display: none;
+    }
+
+    #printHead,
+    #printFooter {
+        display: block !important;
+    }
+}
